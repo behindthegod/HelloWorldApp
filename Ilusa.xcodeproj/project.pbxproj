@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1E82B6C23CF45820080EC59 /* Ilusa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ilusa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E82B6C23CF45820080EC59 /* IlusaKvakusa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlusaKvakusa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E82B6F23CF45820080EC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1E82B7123CF45820080EC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B1E82B7323CF45820080EC59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		B1E82B6D23CF45820080EC59 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1E82B6C23CF45820080EC59 /* Ilusa.app */,
+				B1E82B6C23CF45820080EC59 /* IlusaKvakusa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = Ilusa;
 			productName = Ilusa;
-			productReference = B1E82B6C23CF45820080EC59 /* Ilusa.app */;
+			productReference = B1E82B6C23CF45820080EC59 /* IlusaKvakusa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -287,12 +287,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BGS4DNJP;
 				INFOPLIST_FILE = Ilusa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-7k.Ilusa";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IlusaKvakusa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +306,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BGS4DNJP;
 				INFOPLIST_FILE = Ilusa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-7k.Ilusa";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IlusaKvakusa;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
